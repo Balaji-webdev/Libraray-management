@@ -57,7 +57,7 @@
         confirmPassword: e.target.confirmPassword.value,
         role: e.target.role.value,
       };
-      const res = await fetch("http://localhost:3000/user", {
+      const res = await fetch("https://libraray-management-4ikn.onrender.com/user", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

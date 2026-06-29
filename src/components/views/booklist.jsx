@@ -26,7 +26,7 @@ export default function BookList() {
   const itemsPerPage = 20;
 
   const { books, error, setBooks,} = useDataFetch(
-    "http://localhost:3000/booklist",20
+    "https://libraray-management-4ikn.onrender.com/booklist",20
   );
 
   const handleDeleteClick = (book) => {
@@ -45,7 +45,7 @@ export default function BookList() {
 
   const handleDelete = async (id) => {
     try {
-      await fetch(`http://localhost:3000/booklist/${id}`, {
+      await fetch(`https://libraray-management-4ikn.onrender.com/booklist/${id}`, {
         method: "DELETE",
         headers: { "Content-Type": "application/json" },
       });

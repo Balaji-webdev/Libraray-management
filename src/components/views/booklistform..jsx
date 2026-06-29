@@ -17,7 +17,7 @@ export default function BookListForm() {
     author: book?.author ?? "",
     isbn: book?.isbn ?? "",
     genre: book?.genre ?? "",
-    copies: book?.copiesAvailable ?? "",
+    copiesAvailable: book?.copiesAvailable ?? "",
     country: book?.country ?? "",
   });
   const [error, setError] = useState({});
@@ -29,7 +29,7 @@ export default function BookListForm() {
   //       author: book.author ?? "",
   //       isbn: book.isbn ?? "",
   //       genre: book.genre ?? "",
-  //       copies: book.copiesAvailable ?? "",
+  //       copiesAvailable: book.copiesAvailableAvailable ?? "",
   //       country: book.country ?? "",
   //     });
   //   }
@@ -57,8 +57,8 @@ export default function BookListForm() {
     if (bookform.genre.trim() === "") {
       errors.genre = "Genre should not be empty";
     }
-    if (!bookform.copies || bookform.copies.toString().trim() === "") {
-      errors.copies = "Copies should not be empty";
+    if (!bookform.copiesAvailable || bookform.copiesAvailable.toString().trim() === "") {
+      errors.copiesAvailable = "copies should not be empty";
     }
     if (bookform.country.trim() === "") {
       errors.country = "Country should not be empty";
@@ -75,23 +75,23 @@ export default function BookListForm() {
       author: bookform.author,
       isbn: bookform.isbn,
       genre: bookform.genre,
-      copiesAvailable: bookform.copies,
+      copiesAvailable: bookform.copiesAvailable,
       country: bookform.country,
     };
 
     if (book?.id || params.id) {
       const id = book?.id || params.id;
-      const res = fetch(`http://localhost:3000/booklist/${id}`, {
+      const res = fetch(`https://libraray-management-4ikn.onrender.com/booklist/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
+      toast.success("Book updated successfully");
       setTimeout(() => {
         navigate("/homepage/book");
       }, 1000);
-      toast.success("Book updated successfully");
     } else {
-      fetch("http://localhost:3000/booklist", {
+      fetch("https://libraray-management-4ikn.onrender.com/booklist", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -109,7 +109,7 @@ export default function BookListForm() {
       author: "",
       isbn: "",
       genre: "",
-      copies: "",
+      copiesAvailable: "",
       country: "",
     });
   };
@@ -228,20 +228,20 @@ export default function BookListForm() {
 
               <Field className="col-span-2 group">
                 <Label className="block text-sm font-medium text-slate-700 mb-1.5">
-                  Copies
+                  copies
                 </Label>
                 <Input
                   type="number"
-                  name="copies"
+                  name="copiesAvailable"
                   min="0"
-                  placeholder="copies "
-                  value={bookform.copies}
+                  placeholder="copiesAvailable "
+                  value={bookform.copiesAvailable}
                   onChange={handleChange}
                   className="mt-1 block w-full rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-sm text-slate-800 placeholder:text-slate-400 shadow-sm transition-all duration-200 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-400/40 group-hover:border-indigo-300"
                 />
-                {error.copies && (
+                {error.copiesAvailable && (
                   <p className="mt-1.5 text-sm text-red-600 animate-slideIn">
-                    {error.copies}
+                    {error.copiesAvailable}
                   </p>
                 )}
               </Field>
