@@ -1,0 +1,1048 @@
+{
+  "authors": [
+    {
+      "id": "1",
+      "name": "J.K. Rowling",
+      "country": "UK"
+    },
+    {
+      "id": "2",
+      "name": "George R.R. Martin",
+      "country": "USA"
+    },
+    {
+      "id": "3",
+      "name": "Haruki Murakami",
+      "country": "Japan"
+    },
+    {
+      "id": "4",
+      "name": "Agatha Christie",
+      "country": "UK"
+    },
+    {
+      "id": "5",
+      "name": "Paulo Coelho",
+      "country": "Brazil"
+    },
+    {
+      "id": "6",
+      "name": "Stephen King",
+      "country": "USA"
+    },
+    {
+      "id": "7",
+      "name": "Dan Brown",
+      "country": "USA"
+    },
+    {
+      "id": "8",
+      "name": "Leo Tolstoy",
+      "country": "Russia"
+    },
+    {
+      "id": "9",
+      "name": "Jane Austen",
+      "country": "UK"
+    },
+    {
+      "id": "10",
+      "name": "Mark Twain",
+      "country": "USA"
+    },
+    {
+      "id": "11",
+      "name": "Ernest Hemingway",
+      "country": "USA"
+    },
+    {
+      "id": "12",
+      "name": "F. Scott Fitzgerald",
+      "country": "USA"
+    },
+    {
+      "id": "13",
+      "name": "Charles Dickens",
+      "country": "UK"
+    },
+    {
+      "id": "14",
+      "name": "J.R.R. Tolkien",
+      "country": "UK"
+    },
+    {
+      "id": "15",
+      "name": "C.S. Lewis",
+      "country": "UK"
+    },
+    {
+      "id": "16",
+      "name": "Gabriel García Márquez",
+      "country": "Colombia"
+    },
+    {
+      "id": "17",
+      "name": "Isabel Allende",
+      "country": "Chile"
+    },
+    {
+      "id": "18",
+      "name": "Arthur Conan Doyle",
+      "country": "UK"
+    },
+    {
+      "id": "19",
+      "name": "H.G. Wells",
+      "country": "UK"
+    },
+    {
+      "id": "20",
+      "name": "Mary Shelley",
+      "country": "UK"
+    },
+    {
+      "id": "21",
+      "name": "Khaled Hosseini",
+      "country": "Afghanistan/USA"
+    },
+    {
+      "id": "22",
+      "name": "Suzanne Collins",
+      "country": "USA"
+    },
+    {
+      "id": "23",
+      "name": "Rick Riordan",
+      "country": "USA"
+    },
+    {
+      "id": "24",
+      "name": "Margaret Atwood",
+      "country": "Canada"
+    },
+    {
+      "id": "25",
+      "name": "Chimamanda Ngozi Adichie",
+      "country": "Nigeria"
+    }
+  ],
+  "booklist": [
+    {
+      "title": "A Game of Thrones",
+      "author": "George R.R. Martin",
+      "isbn": "9780553103540",
+      "genre": "Fantasy",
+      "copiesAvailable": "18",
+      "country": "United States",
+      "id": "102"
+    },
+    {
+      "id": "103",
+      "title": "Norwegian Wood",
+      "authorId": 3,
+      "author": "Haruki Murakami",
+      "isbn": "9780375704024",
+      "genre": "Romance",
+      "copiesAvailable": 5,
+      "country": "Japan"
+    },
+    {
+      "id": "104",
+      "title": "Murder on the Orient Express",
+      "authorId": 4,
+      "author": "Agatha Christie",
+      "isbn": "9780007119318",
+      "genre": "Mystery",
+      "copiesAvailable": 10,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "105",
+      "title": "The Alchemist",
+      "authorId": 5,
+      "author": "Paulo Coelho",
+      "isbn": "9780061122415",
+      "genre": "Adventure",
+      "copiesAvailable": 7,
+      "country": "Brazil"
+    },
+    {
+      "id": "106",
+      "title": "The Shining",
+      "authorId": 6,
+      "author": "Stephen King",
+      "isbn": "9780385121675",
+      "genre": "Horror",
+      "copiesAvailable": 6,
+      "country": "United States"
+    },
+    {
+      "id": "107",
+      "title": "The Da Vinci Code",
+      "authorId": 7,
+      "author": "Dan Brown",
+      "isbn": "9780307474278",
+      "genre": "Thriller",
+      "copiesAvailable": 9,
+      "country": "United States"
+    },
+    {
+      "id": "108",
+      "title": "Pride and Prejudice",
+      "authorId": 8,
+      "author": "Jane Austen",
+      "isbn": "9780141439518",
+      "genre": "Romance",
+      "copiesAvailable": 11,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "109",
+      "title": "Adventures of Huckleberry Finn",
+      "authorId": 9,
+      "author": "Mark Twain",
+      "isbn": "9780486280615",
+      "genre": "Adventure",
+      "copiesAvailable": 5,
+      "country": "United States"
+    },
+    {
+      "id": "110",
+      "title": "The Old Man and the Sea",
+      "authorId": 10,
+      "author": "Ernest Hemingway",
+      "isbn": "9780684801223",
+      "genre": "Fiction",
+      "copiesAvailable": 7,
+      "country": "United States"
+    },
+    {
+      "id": "111",
+      "title": "The Great Gatsby",
+      "authorId": 11,
+      "author": "F. Scott Fitzgerald",
+      "isbn": "9780743273565",
+      "genre": "Fiction",
+      "copiesAvailable": 8,
+      "country": "United States"
+    },
+    {
+      "id": "112",
+      "title": "A Tale of Two Cities",
+      "authorId": 12,
+      "author": "Charles Dickens",
+      "isbn": "9780141439600",
+      "genre": "Historical",
+      "copiesAvailable": 6,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "113",
+      "title": "The Hobbit",
+      "authorId": 13,
+      "author": "J.R.R. Tolkien",
+      "isbn": "9780547928227",
+      "genre": "Fantasy",
+      "copiesAvailable": 10,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "114",
+      "title": "The Lion, the Witch and the Wardrobe",
+      "authorId": 14,
+      "author": "C.S. Lewis",
+      "isbn": "9780064471046",
+      "genre": "Fantasy",
+      "copiesAvailable": 9,
+      "country": "United Kingdom"
+    },
+    {
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "isbn": "9780060883287",
+      "genre": "Magical Realism",
+      "copiesAvailable": "2",
+      "country": "Colombia",
+      "id": "115"
+    },
+    {
+      "id": "116",
+      "title": "The House of the Spirits",
+      "authorId": 16,
+      "author": "Isabel Allende",
+      "isbn": "9781501117015",
+      "genre": "Magical Realism",
+      "copiesAvailable": 4,
+      "country": "Chile"
+    },
+    {
+      "id": "117",
+      "title": "The Hound of the Baskervilles",
+      "authorId": 17,
+      "author": "Arthur Conan Doyle",
+      "isbn": "9780451528018",
+      "genre": "Mystery",
+      "copiesAvailable": 6,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "118",
+      "title": "The War of the Worlds",
+      "authorId": 18,
+      "author": "H.G. Wells",
+      "isbn": "9780451530653",
+      "genre": "Science Fiction",
+      "copiesAvailable": 7,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "122",
+      "title": "Percy Jackson and the Olympians: The Lightning Thief",
+      "authorId": 22,
+      "author": "Rick Riordan",
+      "isbn": "9780786838653",
+      "genre": "Fantasy",
+      "copiesAvailable": 10,
+      "country": "United States"
+    },
+    {
+      "id": "123",
+      "title": "The Handmaid's Tale",
+      "authorId": 23,
+      "author": "Margaret Atwood",
+      "isbn": "9780385490818",
+      "genre": "Dystopian",
+      "copiesAvailable": 6,
+      "country": "Canada"
+    },
+    {
+      "id": "124",
+      "title": "Half of a Yellow Sun",
+      "authorId": 24,
+      "author": "Chimamanda Ngozi Adichie",
+      "isbn": "9781400095209",
+      "genre": "Historical Fiction",
+      "copiesAvailable": 2,
+      "country": "Nigeria"
+    },
+    {
+      "id": "125",
+      "title": "The Silent Grove",
+      "authorId": 25,
+      "author": "Elena Rivers",
+      "isbn": "9780393095333",
+      "genre": "Fantasy",
+      "copiesAvailable": 6,
+      "country": "Germany"
+    },
+    {
+      "id": "126",
+      "title": "Shadows of Eternity",
+      "authorId": 26,
+      "author": "Marcus Thorn",
+      "isbn": "9781234567001",
+      "genre": "Fantasy",
+      "copiesAvailable": 9,
+      "country": "United States"
+    },
+    {
+      "id": "127",
+      "title": "The Lost Kingdom",
+      "authorId": 27,
+      "author": "Alicia Hart",
+      "isbn": "9781234567002",
+      "genre": "Adventure",
+      "copiesAvailable": 4,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "128",
+      "title": "Silent Whispers",
+      "authorId": 28,
+      "author": "Kenji Sato",
+      "isbn": "9781234567003",
+      "genre": "Mystery",
+      "copiesAvailable": 6,
+      "country": "Japan"
+    },
+    {
+      "id": "129",
+      "title": "Dreams of Fire",
+      "authorId": 29,
+      "author": "Sophia Lane",
+      "isbn": "9781234567004",
+      "genre": "Romance",
+      "copiesAvailable": 7,
+      "country": "Canada"
+    },
+    {
+      "id": "130",
+      "title": "Echoes of Tomorrow",
+      "authorId": 30,
+      "author": "Liam O'Connor",
+      "isbn": "9781234567005",
+      "genre": "Science Fiction",
+      "copiesAvailable": 11,
+      "country": "Ireland"
+    },
+    {
+      "id": "131",
+      "title": "Winds of the Desert",
+      "authorId": 31,
+      "author": "Amira Khalid",
+      "isbn": "9781234567006",
+      "genre": "Historical Fiction",
+      "copiesAvailable": 5,
+      "country": "Egypt"
+    },
+    {
+      "id": "132",
+      "title": "The Crimson Crown",
+      "authorId": 32,
+      "author": "Victor Dumas",
+      "isbn": "9781234567007",
+      "genre": "Fantasy",
+      "copiesAvailable": 8,
+      "country": "France"
+    },
+    {
+      "id": "133",
+      "title": "River of Secrets",
+      "authorId": 33,
+      "author": "Natalie Brooks",
+      "isbn": "9781234567008",
+      "genre": "Thriller",
+      "copiesAvailable": 10,
+      "country": "Australia"
+    },
+    {
+      "id": "134",
+      "title": "Beneath the Ice",
+      "authorId": 34,
+      "author": "Olaf Eriksen",
+      "isbn": "9781234567009",
+      "genre": "Adventure",
+      "copiesAvailable": 7,
+      "country": "Norway"
+    },
+    {
+      "id": "135",
+      "title": "Flames of Destiny",
+      "authorId": 35,
+      "author": "Priya Nair",
+      "isbn": "9781234567010",
+      "genre": "Drama",
+      "copiesAvailable": 6,
+      "country": "India"
+    },
+    {
+      "id": "136",
+      "title": "The Iron Throne",
+      "authorId": 36,
+      "author": "Alexander Stone",
+      "isbn": "9781234567011",
+      "genre": "Fantasy",
+      "copiesAvailable": 8,
+      "country": "United States"
+    },
+    {
+      "id": "137",
+      "title": "Veil of Shadows",
+      "authorId": 37,
+      "author": "Mei Lin",
+      "isbn": "9781234567012",
+      "genre": "Mystery",
+      "copiesAvailable": 5,
+      "country": "China"
+    },
+    {
+      "id": "138",
+      "title": "Song of the Stars",
+      "authorId": 38,
+      "author": "Diego Ramos",
+      "isbn": "9781234567013",
+      "genre": "Science Fiction",
+      "copiesAvailable": 9,
+      "country": "Mexico"
+    },
+    {
+      "id": "139",
+      "title": "Broken Chains",
+      "authorId": 39,
+      "author": "Kwame Mensah",
+      "isbn": "9781234567014",
+      "genre": "Historical Fiction",
+      "copiesAvailable": 4,
+      "country": "Ghana"
+    },
+    {
+      "id": "140",
+      "title": "Rise of the Phoenix",
+      "authorId": 40,
+      "author": "Aria Novak",
+      "isbn": "9781234567015",
+      "genre": "Fantasy",
+      "copiesAvailable": 12,
+      "country": "Poland"
+    },
+    {
+      "id": "141",
+      "title": "The Final Hour",
+      "authorId": 41,
+      "author": "Owen Carter",
+      "isbn": "9781234567016",
+      "genre": "Thriller",
+      "copiesAvailable": 6,
+      "country": "United States"
+    },
+    {
+      "id": "142",
+      "title": "Gardens of the Moon",
+      "authorId": 42,
+      "author": "Steven Erikson",
+      "isbn": "9780765322883",
+      "genre": "Fantasy",
+      "copiesAvailable": 7,
+      "country": "Canada"
+    },
+    {
+      "id": "143",
+      "title": "Towers of Midnight",
+      "authorId": 43,
+      "author": "Robert Jordan",
+      "isbn": "9780765325945",
+      "genre": "Fantasy",
+      "copiesAvailable": 8,
+      "country": "United States"
+    },
+    {
+      "id": "144",
+      "title": "The Pillars of the Earth",
+      "authorId": 44,
+      "author": "Ken Follett",
+      "isbn": "9780451166890",
+      "genre": "Historical Fiction",
+      "copiesAvailable": 5,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "145",
+      "title": "Blood Meridian",
+      "authorId": 45,
+      "author": "Cormac McCarthy",
+      "isbn": "9780679728757",
+      "genre": "Western",
+      "copiesAvailable": 6,
+      "country": "United States"
+    },
+    {
+      "id": "146",
+      "title": "Wolf Hall",
+      "authorId": 46,
+      "author": "Hilary Mantel",
+      "isbn": "9780312429980",
+      "genre": "Historical",
+      "copiesAvailable": 7,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "147",
+      "title": "The Name of the Wind",
+      "authorId": 47,
+      "author": "Patrick Rothfuss",
+      "isbn": "9780756404741",
+      "genre": "Fantasy",
+      "copiesAvailable": 9,
+      "country": "United States"
+    },
+    {
+      "id": "148",
+      "title": "Station Eleven",
+      "authorId": 48,
+      "author": "Emily St. John Mandel",
+      "isbn": "9780385353304",
+      "genre": "Dystopian",
+      "copiesAvailable": 6,
+      "country": "Canada"
+    },
+    {
+      "id": "149",
+      "title": "The Road",
+      "authorId": 49,
+      "author": "Cormac McCarthy",
+      "isbn": "9780307387899",
+      "genre": "Post-Apocalyptic",
+      "copiesAvailable": 5,
+      "country": "United States"
+    },
+    {
+      "id": "150",
+      "title": "Life of Pi",
+      "authorId": 50,
+      "author": "Yann Martel",
+      "isbn": "9780156027328",
+      "genre": "Adventure",
+      "copiesAvailable": 8,
+      "country": "Canada"
+    },
+    {
+      "id": "151",
+      "title": "The Night Circus",
+      "authorId": 51,
+      "author": "Erin Morgenstern",
+      "isbn": "9780385534635",
+      "genre": "Fantasy",
+      "copiesAvailable": 7,
+      "country": "United States"
+    },
+    {
+      "id": "152",
+      "title": "The Shadow of the Wind",
+      "authorId": 52,
+      "author": "Carlos Ruiz Zafón",
+      "isbn": "9780143034902",
+      "genre": "Mystery",
+      "copiesAvailable": 9,
+      "country": "Spain"
+    },
+    {
+      "id": "153",
+      "title": "American Gods",
+      "authorId": 53,
+      "author": "Neil Gaiman",
+      "isbn": "9780380789030",
+      "genre": "Fantasy",
+      "copiesAvailable": 8,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "154",
+      "title": "Cloud Atlas",
+      "authorId": 54,
+      "author": "David Mitchell",
+      "isbn": "9780375507250",
+      "genre": "Science Fiction",
+      "copiesAvailable": 7,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "155",
+      "title": "The Book Thief",
+      "authorId": 55,
+      "author": "Markus Zusak",
+      "isbn": "9780375842207",
+      "genre": "Historical Fiction",
+      "copiesAvailable": 12,
+      "country": "Australia"
+    },
+    {
+      "id": "156",
+      "title": "Slaughterhouse-Five",
+      "authorId": 56,
+      "author": "Kurt Vonnegut",
+      "isbn": "9780440180296",
+      "genre": "Science Fiction",
+      "copiesAvailable": 5,
+      "country": "United States"
+    },
+    {
+      "id": "157",
+      "title": "Beloved",
+      "authorId": 57,
+      "author": "Toni Morrison",
+      "isbn": "9781400033416",
+      "genre": "Historical Fiction",
+      "copiesAvailable": 6,
+      "country": "United States"
+    },
+    {
+      "id": "158",
+      "title": "The Wind-Up Bird Chronicle",
+      "authorId": 58,
+      "author": "Haruki Murakami",
+      "isbn": "9780679775430",
+      "genre": "Mystery",
+      "copiesAvailable": 7,
+      "country": "Japan"
+    },
+    {
+      "id": "159",
+      "title": "The Trial",
+      "authorId": 59,
+      "author": "Franz Kafka",
+      "isbn": "9780805209990",
+      "genre": "Philosophical",
+      "copiesAvailable": 4,
+      "country": "Austria"
+    },
+    {
+      "id": "160",
+      "title": "Fahrenheit 451",
+      "authorId": 60,
+      "author": "Ray Bradbury",
+      "isbn": "9781451673319",
+      "genre": "Dystopian",
+      "copiesAvailable": 8,
+      "country": "United States"
+    },
+    {
+      "id": "161",
+      "title": "Dracula",
+      "authorId": 61,
+      "author": "Bram Stoker",
+      "isbn": "9780486411095",
+      "genre": "Horror",
+      "copiesAvailable": 6,
+      "country": "Ireland"
+    },
+    {
+      "id": "162",
+      "title": "The Stranger",
+      "authorId": 62,
+      "author": "Albert Camus",
+      "isbn": "9780679720201",
+      "genre": "Philosophical",
+      "copiesAvailable": 5,
+      "country": "France"
+    },
+    {
+      "id": "163",
+      "title": "Catch-22",
+      "authorId": 63,
+      "author": "Joseph Heller",
+      "isbn": "9781451626650",
+      "genre": "Satire",
+      "copiesAvailable": 7,
+      "country": "United States"
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isbn": "9780060850524",
+      "genre": "Dystopian",
+      "copiesAvailable": 8,
+      "country": "United Kingdom",
+      "id": "164"
+    },
+    {
+      "title": "Don Quixote doflamingo",
+      "author": "Miguel de Cervantes",
+      "isbn": "9780060934347",
+      "genre": "Satire",
+      "copiesAvailable": 9,
+      "country": "Spain",
+      "id": "165"
+    },
+    {
+      "id": "166",
+      "title": "The Odyssey",
+      "authorId": 66,
+      "author": "Homer",
+      "isbn": "9780140268867",
+      "genre": "Epic",
+      "copiesAvailable": 10,
+      "country": "Greece"
+    },
+    {
+      "id": "167",
+      "title": "Les Misérables",
+      "authorId": 67,
+      "author": "Victor Hugo",
+      "isbn": "9780451419439",
+      "genre": "Historical Fiction",
+      "copiesAvailable": 6,
+      "country": "France"
+    },
+    {
+      "id": "168",
+      "title": "Crime and Punishment",
+      "authorId": 68,
+      "author": "Fyodor Dostoevsky",
+      "isbn": "9780143058144",
+      "genre": "Philosophical",
+      "copiesAvailable": 7,
+      "country": "Russia"
+    },
+    {
+      "id": "169",
+      "title": "Anna Karenina",
+      "authorId": 69,
+      "author": "Leo Tolstoy",
+      "isbn": "9780143035008",
+      "genre": "Romance",
+      "copiesAvailable": 5,
+      "country": "Russia"
+    },
+    {
+      "id": "170",
+      "title": "Madame Bovary",
+      "authorId": 70,
+      "author": "Gustave Flaubert",
+      "isbn": "9780199535651",
+      "genre": "Romance",
+      "copiesAvailable": 4,
+      "country": "France"
+    },
+    {
+      "id": "171",
+      "title": "The Divine Comedy",
+      "authorId": 71,
+      "author": "Dante Alighieri",
+      "isbn": "9780142437223",
+      "genre": "Epic",
+      "copiesAvailable": 6,
+      "country": "Italy"
+    },
+    {
+      "id": "172",
+      "title": "War and Peace",
+      "authorId": 72,
+      "author": "Leo Tolstoy",
+      "isbn": "9780199232765",
+      "genre": "Historical Fiction",
+      "copiesAvailable": 8,
+      "country": "Russia"
+    },
+    {
+      "title": "Power of Money",
+      "author": "Eichiro Oda ",
+      "isbn": "1231232323123",
+      "genre": "Fantasy",
+      "copiesAvailable": "10",
+      "country": "America",
+      "id": "af27"
+    }
+  ],
+  "user": [
+    {
+      "id": "dd92",
+      "username": "Balaji s ",
+      "email": "balajishankar2810@gmail.com",
+      "password": "1234567",
+      "confirmPassword": "123456",
+      "role": "admin",
+      "phone": "9514399491",
+      "profileImage": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "ab50",
+      "username": "Balaji S",
+      "email": "test@test.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "role": "guest"
+    },
+    {
+      "id": "6467",
+      "username": "test",
+      "email": "tes2t@test.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "role": "librarian"
+    },
+    {
+      "id": "1e94",
+      "username": "Balaji S",
+      "email": "balaji@gmail.com",
+      "password": "qwerty",
+      "confirmPassword": "qwerty",
+      "role": "librarian"
+    },
+    {
+      "id": "7940",
+      "username": "Balaji Shankar",
+      "email": "balaji@gmail.com",
+      "password": "asdfgh",
+      "confirmPassword": "asdfgh",
+      "role": "guest"
+    },
+    {
+      "id": "05fd",
+      "username": "Balaji Shankar",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "qscfde",
+      "confirmPassword": "qscfde",
+      "role": "admin"
+    },
+    {
+      "id": "5eec",
+      "username": "Balaji S",
+      "email": "balaji@gmail.com",
+      "password": "balaji@28",
+      "confirmPassword": "balaji@28",
+      "role": "librarian"
+    },
+    {
+      "id": "2720",
+      "username": "Balaji S",
+      "email": "balaji@28.com",
+      "password": "bala28",
+      "confirmPassword": "bala28",
+      "role": "guest"
+    },
+    {
+      "id": "d2ac",
+      "username": "dinesh",
+      "email": "dinesh@gmail.com",
+      "password": "dinesh1",
+      "confirmPassword": "dinesh1",
+      "role": "librarian"
+    },
+    {
+      "id": "a0f9",
+      "username": "pavi",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "pavi12",
+      "role": "librarian"
+    },
+    {
+      "id": "fc4b",
+      "username": "pavi",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "pavi12",
+      "role": "librarian"
+    },
+    {
+      "id": "f6e2",
+      "username": "pavi",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "pavi12",
+      "role": "admin"
+    },
+    {
+      "id": "f152",
+      "username": "pavi",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "pavi12",
+      "role": "guest"
+    },
+    {
+      "id": "74b6",
+      "username": "pavi",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "pavi12",
+      "role": "guest"
+    },
+    {
+      "id": "1d35",
+      "username": "pavi",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "pavi123",
+      "confirmPassword": "pavi123",
+      "role": "librarian"
+    },
+    {
+      "id": "af8f",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "a7fa",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "8a9b",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "1b8b",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "8c5e",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "57db",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "f7c7",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "0d0e",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "121212",
+      "confirmPassword": "121212",
+      "role": "guest"
+    },
+    {
+      "id": "1834",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "121212",
+      "confirmPassword": "121212",
+      "role": "guest"
+    },
+    {
+      "id": "f74d",
+      "username": "Balaji Shankar",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "121212",
+      "confirmPassword": "121212",
+      "role": "guest"
+    },
+    {
+      "id": "626b",
+      "username": "Balaji Shankar",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "121212",
+      "confirmPassword": "121212",
+      "role": "guest"
+    },
+    {
+      "id": "8e1d",
+      "username": "rajesh",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "323232",
+      "confirmPassword": "323232",
+      "role": "guest"
+    },
+    {
+      "id": "f6a2",
+      "username": "Balaji Shankar",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "qwqwqw",
+      "confirmPassword": "qwqwqw",
+      "role": "guest"
+    },
+    {
+      "id": "fb6e",
+      "username": "Balaji Shankar",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "asasas",
+      "confirmPassword": "asasas",
+      "role": "librarian"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
