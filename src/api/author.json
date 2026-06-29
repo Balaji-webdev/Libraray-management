@@ -1,0 +1,29 @@
+{
+    "authors": [
+    { "id": 1, "name": "J.K. Rowling", "country": "UK" },
+    { "id": 2, "name": "George R.R. Martin", "country": "USA" },
+    { "id": 3, "name": "Haruki Murakami", "country": "Japan" },
+    { "id": 4, "name": "Agatha Christie", "country": "UK" },
+    { "id": 5, "name": "Paulo Coelho", "country": "Brazil" },
+    { "id": 6, "name": "Stephen King", "country": "USA" },
+    { "id": 7, "name": "Dan Brown", "country": "USA" },
+    { "id": 8, "name": "Leo Tolstoy", "country": "Russia" },
+    { "id": 9, "name": "Jane Austen", "country": "UK" },
+    { "id": 10, "name": "Mark Twain", "country": "USA" },
+    { "id": 11, "name": "Ernest Hemingway", "country": "USA" },
+    { "id": 12, "name": "F. Scott Fitzgerald", "country": "USA" },
+    { "id": 13, "name": "Charles Dickens", "country": "UK" },
+    { "id": 14, "name": "J.R.R. Tolkien", "country": "UK" },
+    { "id": 15, "name": "C.S. Lewis", "country": "UK" },
+    { "id": 16, "name": "Gabriel García Márquez", "country": "Colombia" },
+    { "id": 17, "name": "Isabel Allende", "country": "Chile" },
+    { "id": 18, "name": "Arthur Conan Doyle", "country": "UK" },
+    { "id": 19, "name": "H.G. Wells", "country": "UK" },
+    { "id": 20, "name": "Mary Shelley", "country": "UK" },
+    { "id": 21, "name": "Khaled Hosseini", "country": "Afghanistan/USA" },
+    { "id": 22, "name": "Suzanne Collins", "country": "USA" },
+    { "id": 23, "name": "Rick Riordan", "country": "USA" },
+    { "id": 24, "name": "Margaret Atwood", "country": "Canada" },
+    { "id": 25, "name": "Chimamanda Ngozi Adichie", "country": "Nigeria" }
+  ]
+}

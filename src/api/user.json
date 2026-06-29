@@ -1,0 +1,233 @@
+{
+  "user": [
+    {
+      "id": "dd92",
+      "username": "Balaji s",
+      "email": "balajishankar2810@gmail.com",
+      "password": "1234567",
+      "confirmPassword": "123456",
+      "role": "admin",
+      "phone": "9514399491",
+      "profileImage": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "ab50",
+      "username": "Balaji S",
+      "email": "test@test.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "role": "guest"
+    },
+    {
+      "id": "6467",
+      "username": "test",
+      "email": "tes2t@test.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "role": "librarian"
+    },
+    {
+      "id": "1e94",
+      "username": "Balaji S",
+      "email": "balaji@gmail.com",
+      "password": "qwerty",
+      "confirmPassword": "qwerty",
+      "role": "librarian"
+    },
+    {
+      "id": "7940",
+      "username": "Balaji Shankar",
+      "email": "balaji@gmail.com",
+      "password": "asdfgh",
+      "confirmPassword": "asdfgh",
+      "role": "guest"
+    },
+    {
+      "id": "05fd",
+      "username": "Balaji Shankar",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "qscfde",
+      "confirmPassword": "qscfde",
+      "role": "admin"
+    },
+    {
+      "id": "5eec",
+      "username": "Balaji S",
+      "email": "balaji@gmail.com",
+      "password": "balaji@28",
+      "confirmPassword": "balaji@28",
+      "role": "librarian"
+    },
+    {
+      "id": "2720",
+      "username": "Balaji S",
+      "email": "balaji@28.com",
+      "password": "bala28",
+      "confirmPassword": "bala28",
+      "role": "guest"
+    },
+    {
+      "id": "d2ac",
+      "username": "dinesh",
+      "email": "dinesh@gmail.com",
+      "password": "dinesh1",
+      "confirmPassword": "dinesh1",
+      "role": "librarian"
+    },
+    {
+      "id": "a0f9",
+      "username": "pavi",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "pavi12",
+      "role": "librarian"
+    },
+    {
+      "id": "fc4b",
+      "username": "pavi",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "pavi12",
+      "role": "librarian"
+    },
+    {
+      "id": "f6e2",
+      "username": "pavi",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "pavi12",
+      "role": "admin"
+    },
+    {
+      "id": "f152",
+      "username": "pavi",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "pavi12",
+      "role": "guest"
+    },
+    {
+      "id": "74b6",
+      "username": "pavi",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "pavi12",
+      "role": "guest"
+    },
+    {
+      "id": "1d35",
+      "username": "pavi",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "pavi123",
+      "confirmPassword": "pavi123",
+      "role": "librarian"
+    },
+    {
+      "id": "af8f",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "a7fa",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "8a9b",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "1b8b",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "8c5e",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "57db",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "f7c7",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "212121",
+      "confirmPassword": "212121",
+      "role": "guest"
+    },
+    {
+      "id": "0d0e",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "121212",
+      "confirmPassword": "121212",
+      "role": "guest"
+    },
+    {
+      "id": "1834",
+      "username": "pavithra",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "121212",
+      "confirmPassword": "121212",
+      "role": "guest"
+    },
+    {
+      "id": "f74d",
+      "username": "Balaji Shankar",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "121212",
+      "confirmPassword": "121212",
+      "role": "guest"
+    },
+    {
+      "id": "626b",
+      "username": "Balaji Shankar",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "121212",
+      "confirmPassword": "121212",
+      "role": "guest"
+    },
+    {
+      "id": "8e1d",
+      "username": "rajesh",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "323232",
+      "confirmPassword": "323232",
+      "role": "guest"
+    },
+    {
+      "id": "f6a2",
+      "username": "Balaji Shankar",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "qwqwqw",
+      "confirmPassword": "qwqwqw",
+      "role": "guest"
+    },
+    {
+      "id": "fb6e",
+      "username": "Balaji Shankar",
+      "email": "pavithrashankar586@gmail.com",
+      "password": "asasas",
+      "confirmPassword": "asasas",
+      "role": "librarian"
+    }
+  ]
+}
