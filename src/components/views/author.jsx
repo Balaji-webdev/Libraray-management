@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { CiSearch } from "react-icons/ci";
 import { FiFilter } from "react-icons/fi";
-import Paginator from "../helper/pagination";
+import Paginator from "../../utils/pagination";
 import { useDataFetch } from "../../hooks/useDataFetch";
 import { useDebounce } from "../../hooks/useBounce";
 import { AiOutlineSortAscending } from "react-icons/ai";
@@ -17,7 +17,7 @@ export default function Author() {
 
   const debouncedValue = useDebounce(search, 500);
 
-  const { books } = useDataFetch("http://localhost:3001/booklist");
+  const { books } = useDataFetch("http://localhost:3000/booklist");
 
   const handleChange = (e) => setSearch(e.target.value);
 

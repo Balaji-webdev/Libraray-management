@@ -6,7 +6,7 @@ import toast, { Toaster } from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import PasswordField from "./PasswordField";
-import { updatePassword } from "../state-management/profileSlice";
+import { updatePassword } from "../../state-management/profileSlice";
 
 export default function ChangePasswordPage() {
   const dispatch = useDispatch();
@@ -15,7 +15,7 @@ export default function ChangePasswordPage() {
   const { data: profile } = useSelector((state) => state.profile);
 
   const [form, setForm] = useState({
-    currentPassword: profile?.password || "", 
+    currentPassword:  "", 
     newPassword: "",
     confirmPassword: "",
   });
@@ -84,9 +84,9 @@ export default function ChangePasswordPage() {
             id="currentPassword"
             name="currentPassword"
             label="Current password"
+            placeholder='Enter Your Current Password'
             value={form.currentPassword}
             onChange={() => {}}
-            disabled
           />
           <PasswordField
             id="newPassword"

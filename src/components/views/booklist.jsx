@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { FiFilter } from "react-icons/fi";
 import { CiSearch } from "react-icons/ci";
-import Paginator from "../helper/pagination";
+import Paginator from "../../utils/pagination";
 import { Link, Outlet } from "react-router-dom";
-import Dialogs from "../helper/dialog";
+import Dialogs from "../../utils/dialog";
 import { useSelector } from "react-redux";
 import { Toaster } from "react-hot-toast";
 import toast from "react-hot-toast";
@@ -26,7 +26,7 @@ export default function BookList() {
   const itemsPerPage = 20;
 
   const { books, error, setBooks,} = useDataFetch(
-    "http://localhost:3001/booklist",20
+    "http://localhost:3000/booklist",20
   );
 
   const handleDeleteClick = (book) => {
@@ -45,7 +45,7 @@ export default function BookList() {
 
   const handleDelete = async (id) => {
     try {
-      await fetch(`http://localhost:3001/booklist/${id}`, {
+      await fetch(`http://localhost:3000/booklist/${id}`, {
         method: "DELETE",
         headers: { "Content-Type": "application/json" },
       });

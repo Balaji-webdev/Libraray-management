@@ -117,6 +117,17 @@ export default function ProfilePage() {
         <h2 className="text-xl font-semibold text-gray-900 mb-8 text-center md:text-left">
           Profile
         </h2>
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-lg font-semibold text-gray-900">Change password</h2>
+          <button
+            type="button"
+            onClick={() => navigate("/homepage")}
+            className="text-sm font-medium text-blue-600 hover:underline"
+          >
+            Back to home
+          </button>
+        </div>
+
 
         <form onSubmit={handleSubmit}>
           <div className="grid grid-cols-1 md:grid-cols-[260px_1fr] gap-10">
@@ -199,33 +210,17 @@ export default function ProfilePage() {
                 )}
               </Field>
 
-              <Field className="sm:col-span-2">
-                {
-                  isAdmin ?
-                    <PasswordField
-                      id="password"
-                      name="password"
-                      label="Password"
-                      value={profile.confirmPassword || ""}
-                      onChange={() => { }}
-                      disabled
-                      canToggle={isAdmin}
-                    />
-                    : null
-                }
-
-                {isAdmin ? (
-                  <button
-                    type="button"
-                    onClick={() => navigate("/change-password")}
-                    className="mt-2 text-sm font-medium text-blue-600 hover:underline"
-                  >
-                    Change password
-                  </button>
-                ) : (
-                  null
-                )}
-              </Field>
+              {isAdmin && (
+  <Field className="sm:col-span-2">
+    <button
+      type="button"
+      onClick={() => navigate("/change-password")}
+      className="text-sm font-medium text-blue-600 hover:underline"
+    >
+      Change password
+    </button>
+  </Field>
+)}
 
               {saveError && (
                 <p className="sm:col-span-2 text-sm text-red-600">{saveError}</p>

@@ -7,8 +7,8 @@ import BookListForm from "./components/views/booklistform.";
 import React from "react";
 import Author from "./components/views/author";
 import ProtectedRoute from "./state-management/authGuard";
-import ProfilePage from "./profile/ProfilePage";
-import ChangePasswordPage from "./profile/ChangePasswordCard";
+import ProfilePage from "./components/profile/ProfilePage";
+import ChangePasswordPage from "./components/profile/ChangePasswordCard";
 
 function App() {
   return (

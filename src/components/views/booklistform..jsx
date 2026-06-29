@@ -81,7 +81,7 @@ export default function BookListForm() {
 
     if (book?.id || params.id) {
       const id = book?.id || params.id;
-      const res = fetch(`http://localhost:3001/booklist/${id}`, {
+      const res = fetch(`http://localhost:3000/booklist/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
@@ -91,7 +91,7 @@ export default function BookListForm() {
       }, 1000);
       toast.success("Book updated successfully");
     } else {
-      fetch("http://localhost:3001/booklist", {
+      fetch("http://localhost:3000/booklist", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

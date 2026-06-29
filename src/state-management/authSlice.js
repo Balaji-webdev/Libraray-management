@@ -14,7 +14,7 @@ export const loginUser = createAsyncThunk(
   "auth/login",
   async ({ email, password }, { rejectWithValue }) => {
     try {
-      const response = await fetch("http://localhost:3000/user");
+      const response = await fetch("https://libraray-management-4ikn.onrender.com/user");
       if (!response.ok) {
         throw new Error("Server Error");
       }

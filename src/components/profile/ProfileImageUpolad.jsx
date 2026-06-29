@@ -1,6 +1,6 @@
 
 import { useRef, useState } from "react";
-import defaultAvatar from "../../public/assets/default-avatar.svg";
+import defaultAvatar from "../../../public/assets/default-avatar.svg";
 import { validateImageFile, fileToOptimizedBase64 } from "../../utils/imageProcessing";
 
 export default function ProfileImageUpload({ currentImage, onImageReady }) {
